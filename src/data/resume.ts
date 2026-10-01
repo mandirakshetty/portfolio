@@ -84,7 +84,7 @@ export const RESUME_DATA = {
   stats: [
     { label: "B.Tech CSE CGPA", value: "9.29", suffix: "/10", highlight: "Academic Excellence" },
     { label: "Technical Internships", value: "3", suffix: "", highlight: "Broadridge • TechM • Graphene" },
-    { label: "Peer-Reviewed Research", value: "1", suffix: "", highlight: "ICASF '25 Abu Dhabi" },
+    { label: "Peer-Reviewed Research", value: "2", suffix: "", highlight: "ICASF '25 Abu Dhabi + Book Chapter" },
     { label: "Query Optimization", value: "87", suffix: "%", highlight: "15s down to 2s in Production" },
   ],
 
@@ -99,8 +99,7 @@ export const RESUME_DATA = {
       badgeColor: "from-pink-500 to-rose-500",
       summary:
         "Built full-stack release-scheduling features, ITSM integrations, and query optimizations for a production fintech portal.",
-      impactNarrative:
-        "Collaborated in an Agile team across the full SDLC to build full-stack features for a release-scheduling portal, integrating ITSM workflows and optimizing database queries from 15 seconds to 2 seconds.",
+      
       highlights: [
         "Collaborated in an Agile team across the full SDLC to build full-stack features (React, FastAPI, PostgreSQL) for a release-scheduling portal, integrating ITSM (CRQ) and optimizing queries to cut response time from 15s to 2s.",
         "Built a RAG-style LLM chatbot using OpenAI APIs integration and a Scikit-learn classifier to auto-categorize releases, plus a Jira ID lookup tool and bug-template generator that reduced manual ticket-creation effort from 25 mins to 5 mins per employee.",
@@ -132,10 +131,9 @@ export const RESUME_DATA = {
       badgeColor: "from-violet-500 to-indigo-500",
       summary:
         "Designed the ML architecture for RAG-based telecom log analysis and semantic retrieval.",
-      impactNarrative:
-        "Developed the machine learning architecture for a RAG-based log analysis system in telecom monitoring, using Sentence Transformers and FAISS for semantic search across enterprise application logs.",
+      
       highlights: [
-        "Architected semantic search retrieval on dense high-dimensional vectors (FAISS) indexing millions of distributed telecom server logs.",
+        "Developed the machine learning architecture for a RAG-based log analysis system in telecom monitoring, using Sentence Transformers and FAISS for semantic search across enterprise application logs.",
         "Built a Streamlit monitoring dashboard for automated root-cause analysis, cutting troubleshooting time by 70% through log-similarity matching and knowledge-base retrieval.",
         "Empowered SRE and Network Operations engineering squads with instant contextual incident retrieval.",
       ],
@@ -162,8 +160,7 @@ export const RESUME_DATA = {
       badgeColor: "from-fuchsia-500 to-pink-500",
       summary:
         "Built a document analysis chatbot and Streamlit workflow on Google's Gemma-2B-it model.",
-      impactNarrative:
-        "Built a chatbot on Google's Gemma-2B-it model with prompt engineering, plus a Streamlit interface for PDF upload, content-based Q&A, chat history, and custom commands.",
+      
       highlights: [
         "Built a chatbot on Google's GEMMA-2B-it model with prompt engineering for medical summaries and document insights.",
         "Developed full Streamlit client interface supporting drag-and-drop PDF extraction, conversational history, and custom commands.",
@@ -275,19 +272,32 @@ export const RESUME_DATA = {
     ],
   } as ResearchPaper,
 
-  leadership: {
-    role: "President",
-    organization: "The Startup Society, RUAS",
-    period: "Oct 2024 – Aug 2025",
-    scale: "300+ Active Student Members",
-    summary:
-      "Led a 300+ member university club, organizing workshops, competitions, and speaker sessions to build a campus startup culture.",
-    highlights: [
-      "Led a 300+ member club, organizing workshops, competitions, and speaker sessions to build a campus startup culture.",
-      "Coordinated student-focused workshops, competitions, and speaker sessions around startups, engineering, and innovation.",
-      "Helped create a stronger campus entrepreneurship community through consistent events and member engagement.",
-    ],
-  },
+  leadership: [
+    {
+      role: "President",
+      organization: "The Startup Society, RUAS",
+      period: "Oct 2024 – Aug 2025",
+      scale: "300+ Active Student Members",
+      summary:
+        "Led a 300+ member university club, organizing workshops, competitions, and speaker sessions to build a campus startup culture.",
+      highlights: [
+        "Led a 300+ member student community focused on startups and innovation.",
+        "Organized workshops, competitions, and speaker sessions on campus.",
+      ],
+    },
+    {
+      role: "Student Ambassador",
+      organization: "Broadridge India",
+      period: "Apr 2025 – Dec 2025",
+      scale: "Campus outreach role",
+      summary:
+        "Represented Broadridge on campus by promoting brand awareness, organizing events, and building industry connections.",
+      highlights: [
+        "Promoted Broadridge programs and opportunities through campus outreach.",
+        "Supported events and industry-connect activities while building leadership and communication skills.",
+      ],
+    },
+  ],
 
   skills: {
     // HORIZONTAL RAIL FOR LANGUAGES:
