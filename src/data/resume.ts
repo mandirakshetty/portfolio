@@ -272,33 +272,20 @@ export const RESUME_DATA = {
     ],
   } as ResearchPaper,
 
-  leadership: [
-    {
-      role: "President",
-      organization: "The Startup Society, RUAS",
-      period: "Oct 2024 – Aug 2025",
-      scale: "300+ Active Student Members",
-      summary:
-        "Led a 300+ member university club, organizing workshops, competitions, and speaker sessions to build a campus startup culture.",
-      highlights: [
-        "Led a 300+ member student community focused on startups and innovation.",
-        "Organized workshops, competitions, and speaker sessions on campus.",
-      ],
-    },
-    {
-      role: "Student Ambassador",
-      organization: "Broadridge India",
-      period: "Apr 2025 – Dec 2025",
-      scale: "Campus outreach role",
-      summary:
-        "Represented Broadridge on campus by promoting brand awareness, organizing events, and building industry connections.",
-      highlights: [
-        "Promoted Broadridge programs and opportunities through campus outreach.",
-        "Supported events and industry-connect activities while building leadership and communication skills.",
-      ],
-    },
-  ],
-
+  leadership: {
+    role: "President",
+    organization: "The Startup Society, RUAS",
+    period: "Oct 2024 – Aug 2025",
+    scale: "300+ Active Student Members",
+    summary:
+      "Led a 300+ member university club, organizing workshops, competitions, and speaker sessions to build a campus startup culture.",
+    highlights: [
+      "Led a 300+ member club, organizing workshops, competitions, and speaker sessions to build a campus startup culture.",
+      "Coordinated student-focused workshops, competitions, and speaker sessions around startups, engineering, and innovation.",
+      "Helped create a stronger campus entrepreneurship community through consistent events and member engagement.",
+    ],
+  },
+  
   skills: {
     // HORIZONTAL RAIL FOR LANGUAGES:
     languagesHorizontal: [
